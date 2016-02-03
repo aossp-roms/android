@@ -70,11 +70,7 @@
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" />
   <project path="external/google" name="CyanogenMod/android_external_google" />
   <project path="external/gmock" name="CyanogenMod/android_external_gmock"/>
-  <project path="external/g  <!-- BEGIN HELIUMROM -->
-  <project path="build" name="HeliumRom/android_build" groups="pdk" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-  <!-- END HELIUMROM -->son" name="CyanogenMod/android_external_gson" />
+  <project path="external/gson" name="CyanogenMod/android_external_gson" />
   <project path="external/htop" name="CyanogenMod/android_external_htop" />
   <project path="external/icu" name="CyanogenMod/android_external_icu" groups="pdk" />
   <project path="external/iproute2" name="CyanogenMod/android_external_iproute2" groups="pdk" />
