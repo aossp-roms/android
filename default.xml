@@ -37,7 +37,7 @@
   <project path="art" name="HeliumRom/android_art" groups="pdk" />
   <project path="frameworks/rs" name="HeliumRom/android_frameworks_rs" groups="pdk" />
   <project path="system/vold" name="HeliumRom/android_system_vold" groups="pdk" />
-  <project path="external/vixl" name="HeliumRom/android_external_vixl" groups="pdk" />
+  <project path="external/vixl" name="HeliumRom/android_external_vixl" revision="marshmallow" groups="pdk" />
   <project path="frameworks/base" remote="suda" revision="sm-2.0" name="HeliumRom/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="vendor/cm" name="HeliumRom/android_vendor_cm" />
   <project path="packages/services/Telecomm" remote="suda" revision="sm-2.0" name="HeliumRom/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />  
