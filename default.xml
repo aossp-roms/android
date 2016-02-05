@@ -18,7 +18,10 @@
 
   <remote name="suda"
           fetch="https://github.com"
-          review=".." />         
+          review=".." />
+
+  <remote  name="cmR"
+           fetch="https://github.com/CMRemix/" />         
 
   <default revision="refs/heads/cm-13.0"
            remote="github"
