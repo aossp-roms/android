@@ -60,6 +60,12 @@
   <project path="system/core" remote="suda" revision="sm-2.0" name="SudaMod/android_system_core" groups="pdk" /> 
   <project path="system/extras/su" remote="suda" revision="sm-2.0" name="SudaMod/android_system_extras_su" />   
   <!-- END SUDAMOD -->
+
+  <!-- BEGIN DragonTC -->
+  <project path="prebuilts/ndk" name="android_prebuilts_ndk" groups="pdk" remote="cmR" revision="clang_3.7" />
+  <project path="prebuilts/clang/linux-x86/host/3.7" name="llvm-Snapdragon_LLVM_for_Android" remote="cmR" revision="DragonTC_3.7" />
+  <project path="prebuilts/clang/linux-x86/host/3.8" name="llvm-Snapdragon_LLVM_for_Android" remote="cmR" revision="DragonTC_3.8" />
+  <!-- END DragonTC -->
   
   <!-- BEGIN CYANOGENMOD -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
