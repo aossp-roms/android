@@ -37,6 +37,7 @@
   <project path="art" name="HeliumRom/android_art" groups="pdk" />
   <project path="frameworks/rs" name="HeliumRom/android_frameworks_rs" groups="pdk" />
   <project path="system/vold" name="HeliumRom/android_system_vold" groups="pdk" />
+  <project path="external/vixl" name="HeliumRom/android_external_vixl" groups="pdk" />
   <project path="frameworks/base" remote="suda" revision="sm-2.0" name="HeliumRom/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="vendor/cm" name="HeliumRom/android_vendor_cm" />
   <project path="packages/services/Telecomm" remote="suda" revision="sm-2.0" name="HeliumRom/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />  
@@ -508,7 +509,6 @@
   <project path="external/v8" name="platform/external/v8" groups="pdk" remote="aosp" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" remote="aosp" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot" remote="aosp" />
-  <project path="external/vixl" name="platform/external/vixl" groups="pdk" remote="aosp" />
   <project path="external/vogar" name="platform/external/vogar" groups="pdk" remote="aosp" />
   <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" remote="aosp" />
