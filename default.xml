@@ -45,6 +45,10 @@
   <project path="packages/apps/Settings" remote="suda" revision="sm-2.0" name="HeliumRom/android_packages_apps_Settings" groups="pdk-fs" />
   <!-- END HELIUMROM -->
 
+  <!-- BEGIN BenzoRom -->
+  <project path="external/libcxxabi" name="BenzoRom/external_libcxxabi" groups="pdk" remote="github" revision="marshmallow" />
+  <!-- BEGIN BenzoRom -->
+
   <!-- BEGIN SUDAMOD -->
   <project path="external/suda/SudaSDKs" remote="suda" revision="sm-2.0" name="SudaMod/android_external_suda_SudaSDKs" />
   <project path="packages/apps/Browser" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Browser" groups="pdk-fs" /> 
@@ -433,7 +437,6 @@
   <project path="external/libavc" name="CyanogenMod/android_external_libavc" groups="pdk" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" />
-  <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" />
   <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" remote="aosp" />
   <project path="external/libedit" name="platform/external/libedit" groups="pdk-fs" remote="aosp" />
   <project path="external/libexif" name="platform/external/libexif" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
