@@ -73,6 +73,7 @@
   <!-- BEGIN DragonTC -->
   <project path="prebuilts/clang/linux-x86/host/3.8" name="xanaxdroid/dragontc-3.8" groups="pdk,linux" remote="bb" revision="dragontc" />
   <project path="prebuilts/clang/linux-x86/host/3.7" name="xanaxdroid/dragontc-3.7" groups="pdk,linux" remote="bb" revision="dragontc" />
+  <project path="prebuilts/clang/linux-x86/host/3.9" name="dragon-tc/dragontc-3.7" groups="pdk,linux" remote="bb" revision="master" />
   <project path="prebuilts/ndk" name="android_prebuilts_ndk" groups="pdk" remote="cmR" revision="clang_3.7" />
   <!-- END DragonTC -->
   
@@ -135,7 +136,7 @@
   <project path="external/libnfnetlink" name="CyanogenMod/android_external_libnfnetlink" />
   <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" />
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" />
-  <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" />
+  <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" />libcxxabi
   <project path="external/libtar" name="CyanogenMod/android_external_libtar" />
   <project path="external/libusb" name="CyanogenMod/android_external_libusb" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libusbx" name="CyanogenMod/android_external_libusbx" />
