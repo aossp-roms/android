@@ -43,6 +43,7 @@
   <project path="vendor/cm" name="HeliumRom/android_vendor_cm" />
   <project path="packages/services/Telephony" remote="suda" revision="sm-2.0" name="HeliumRom/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Settings" remote="suda" revision="sm-2.0" name="HeliumRom/android_packages_apps_Settings" groups="pdk-fs" />
+  <project path="system/bt" name="HeliumRom/android_system_bt" groups="pdk" />>
   <!-- END HELIUMROM -->
 
   <!-- BEGIN BenzoRom -->
@@ -331,7 +332,6 @@
   <project path="packages/wallpapers/PhaseBeam" name="CyanogenMod/android_packages_wallpapers_PhaseBeam" groups="pdk-fs" />
   <project path="packages/wallpapers/PhotoPhase" name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />
   <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" clone-depth="1" revision="master" />
-  <project path="system/bt" name="CyanogenMod/android_system_bt" groups="pdk" />>
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
