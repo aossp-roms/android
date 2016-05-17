@@ -2,12 +2,12 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com" />
+           fetch="git://android.googlesource.com" />
   <remote  name="webview"
-           fetch="https://android.googlesource.com"
+           fetch="git://android.googlesource.com"
            revision="refs/tags/android-m-preview-2" />
   <remote  name="github"
-           fetch="https://github.com" />
+           fetch="git://github.com" />
   <default revision="refs/tags/android-6.0.1_r43"
            remote="aosp"
            sync-j="4" />
@@ -60,7 +60,6 @@
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/kylepro" name="TheComputerGuy96/android_device_samsung_kylepro" remote="github" revision="aosp-6.0" />
-  #<project path="device/samsung/kyleprods" name="TheComputerGuy96/android_device_samsung_kyleprods" remote="github" revision="aosp-6.0" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs,pdk-fs" />
