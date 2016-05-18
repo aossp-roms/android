@@ -2,12 +2,12 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="git://android.googlesource.com" />
+           fetch="http://android.googlesource.com" />
   <remote  name="webview"
-           fetch="git://android.googlesource.com"
+           fetch="http://android.googlesource.com"
            revision="refs/tags/android-m-preview-2" />
   <remote  name="github"
-           fetch="git://github.com" />
+           fetch="http://github.com" />
   <default revision="refs/tags/android-6.0.1_r43"
            remote="aosp"
            sync-j="4" />
