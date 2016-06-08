@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-6.0.1_r45" />
+           revision="refs/tags/android-6.0.1_r46" />
 
   <remote  name="github"
            fetch=".."
@@ -22,7 +22,7 @@
   <!-- KYLEPROXX -->
   <project path="device/samsung/kylepro" name="TheComputerGuy96/android_device_samsung_kylepro" remote="github" revision="cm-13.0-stable" />
   <project path="device/samsung/kyleprods" name="TheComputerGuy96/android_device_samsung_kyleprods" remote="github" revision="cm-13.0-stable" />
-  <project path="kernel/samsung/kyleproxx" name="SandPox/android_kernel_samsung_kyleproxx" remote="github" revision="cm-13.0" />
+  <project path="kernel/samsung/kyleproxx" name="TheComputerGuy96/android_kernel_samsung_kyleproxx" remote="github" revision="cm-13.0" />
   <project path="vendor/samsung/kyleproxx" name="TheComputerGuy96/android_vendor_samsung_kyleproxx" remote="github" revision="cm-13.0-stable" />
 <!-- END SANDPOX'S DEVICE -->
 
