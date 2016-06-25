@@ -3,8 +3,6 @@
 
   <remote  name="aosp"
            fetch=".." />
-  <remote  name="github"
-           fetch=".." />
   <default revision="refs/tags/android-6.0.1_r46"
            remote="aosp"
            sync-j="4" />
@@ -56,7 +54,7 @@
   <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/samsung/kylepro" name="TheComputerGuy96/android_device_samsung_kylepro" remote="github" revision="aosp-6.0" />
+  <project path="device/samsung/kylepro" name="TheComputerGuy96/android_device_samsung_kylepro" remote="aosp" revision="aosp-6.0" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs,pdk-fs" />
@@ -78,7 +76,7 @@
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium-webview" name="TheComputerGuy96/android_external_chromium-webview" remote="github" revision="aosp-6.0" />
+  <project path="external/chromium-webview" name="TheComputerGuy96/android_external_chromium-webview" remote="aosp" revision="aosp-6.0" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
@@ -347,7 +345,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
-  <project path="kernel/samsung/kyleproxx" name="SandPox/android_kernel_samsung_kyleproxx" remote="github" revision="cm-13.0" />
+  <project path="kernel/samsung/kyleproxx" name="SandPox/android_kernel_samsung_kyleproxx" remote="aosp" revision="cm-13.0" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
@@ -484,6 +482,6 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <project path="vendor/samsung/kyleproxx" name="TheComputerGuy96/android_vendor_samsung_kyleproxx" remote="github" revision="aosp-6.0" />
+  <project path="vendor/samsung/kyleproxx" name="TheComputerGuy96/android_vendor_samsung_kyleproxx" remote="aosp" revision="aosp-6.0" />
 
 </manifest>
