@@ -5,7 +5,7 @@
            fetch=".." />
   <remote  name="github"
            fetch="https://github.com" />
-  <default  revision="refs/tags/android-6.0.1_r46"
+  <default revision="refs/tags/android-6.0.1_r46"
            remote="aosp" />
 
   <project path="build" name="platform/build" groups="pdk" >
