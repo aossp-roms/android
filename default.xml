@@ -6,7 +6,8 @@
   <remote  name="github"
            fetch="https://github.com" />
   <default revision="refs/tags/android-6.0.1_r46"
-           remote="aosp" />
+           remote="aosp"
+           sync-j="4" />
 
   <project path="build" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
