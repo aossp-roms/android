@@ -1,10 +1,10 @@
-The Android Open Source Project Nougat 7.0 Preview 5
+The Android Open Source Project N Preview 4
 ===========
 To initialize your local repository using the AOSP trees, use a command like this:
-````bash
+```
 repo init -u https://github.com/TheComputerGuy96/android.git -b aosp-n
 ```
 Then to sync up:
-````bash
+```
 repo sync
 ```
