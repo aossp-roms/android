@@ -49,10 +49,10 @@
 
 
   <!-- SABER MOD GCC -->
-  <!--<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arm-eabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arm-eabi-4.9" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.0" name="arm-eabi-7.0" groups="pdk,linux,arm" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3" name="arm-linux-androideabi-5.3" remote="bb" revision="master" />-->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3" name="arm-linux-androideabi-5.3" remote="bb" revision="master" />
 
   <!--Custom Clang Dependencies -->
   <!--<project path="prebuilts/ndk" name="android_prebuilts_ndk" groups="pdk" remote="cmR" revision="clang_3.9" />
