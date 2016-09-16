@@ -42,6 +42,7 @@
 
   <!-- Mics -->
   <project path="CHANGELOGS" name="CHANGELOGS" remote="cmR" revision="cm-14.0" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="cmR" revision="cm-14.0" />
 
   <!-- External -->
   
