@@ -507,7 +507,7 @@
 <!-- END AOSP -->
 
 <!-- BEGIN MEDIATEK B15Q -->
-  <project path="device/mediatek/mt6582" name="hersche/android_device_mediatek_mt6582" revision="cm-13.0" />
-  <project path="vendor/mediatek/mt6582" name="hersche/android_vendor_mediatek_mt6582" revision="cm-13.0" />
+  <project path="device/mediatek/mt6582" name="hersche/device_mediatek_mt6582" revision="cm-13.0" />
+  <project path="vendor/mediatek/mt6582" name="hersche/vendor_mediatek_mt6582" revision="cm-13.0" />
 <!-- END MEDIATEK B15Q -->
 </manifest>
