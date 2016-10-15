@@ -3,7 +3,7 @@ CyanogenMod
 
 Mediatek-Fork for Cat B15Q
 ------------------
-This is a project is forked for Cat B15Q!
+This is a project is forked for Cat B15Q! Use the wiki for more information: https://github.com/hersche/android/wiki
 It's made by several developers to make CyanogenMod work on legacy Mediatek Device.
 
     Special Thanks to:
@@ -47,6 +47,7 @@ Then build it:
 
     brunch cm_mt6582-userdebug
     
+In the end, replace the boot.img-file via Sp-Flashtools or by replacing in zip with one from ported roms.
 
 
 Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
