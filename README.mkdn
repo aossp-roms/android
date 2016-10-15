@@ -1,9 +1,10 @@
 CyanogenMod
 ===========
 
-Mediatek
+Mediatek-Fork for Cat B15Q
 ------------------
-This is a project made by several developers to make CyanogenMod work on legacy Mediatek Device.
+This is a project is forked for Cat B15Q!
+It's made by several developers to make CyanogenMod work on legacy Mediatek Device.
 
     Special Thanks to:
     - Santhosh M
@@ -17,6 +18,7 @@ This is a project made by several developers to make CyanogenMod work on legacy 
     - chrmhoffmann
     - DerTeufel1980
     - xen0n
+    - rohantaneja
 
 Note: This project is public, still WIP. Do support developers in case of providing fixes.
 
@@ -31,11 +33,21 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the CyanogenMod and my trees, use a command like this:
 
-    repo init -u git://github.com/rohantaneja/android.git -b cm-13.0
+    repo init -u git://github.com/hersche/android.git -b cm-13.0
 
 Then to sync up:
 
     repo sync
+    
+Then init enviroment:
+
+    source build/envsetup.sh
+
+Then build it:
+
+    brunch cm_mt6582-userdebug
+    
+
 
 Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
 
