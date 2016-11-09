@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- CMRemix Github remote -->
+  <remote  name="cmR"
+           fetch="https://github.com/CMRemix/" />
+  
+  <!-- Generic CMRemix ssh Bitbucket remote -->
+  <remote  name="private-bb"
+           fetch="ssh://git@bitbucket.org/CMRemix" />
+ 
+   <!-- Generic CMRemix Github remote -->
+  <remote  name="bb"
+           fetch="https://bitbucket.org/CMRemix/" />
+  
+  <!-- Generic CMRemix GitLab remote -->
+  <remote  name="gl"
+           fetch="https://gitlab.com/CMRemix" />
+  
+  <!-- Omni Rom Github remote -->
+  <remote  name="omni"
+           fetch="https://github.com/omnirom"
+           review="gerrit.omnirom.org" />
+
+  <!-- CMRemix Platform Manifest -->
+  <project path="CMRemix" name="CMRemix" remote="cmR" revision="cm-14.1" />
+
+  <!-- CMRemix Build -->
+  <project path="build" name="android_build" remote="cmR" revision="cm-14.1" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>-->
+
+   <!-- Frameworks -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="cmR" revision="cm-14.1" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="cmR" revision="cm-14.1" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="cmR" revision="cm-14.1" />
+
+  <!-- Package Apps -->
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cmR" revision="cm-14.1" />
+
+  <!-- Vendors -->
+  <project path="vendor/cmsdk" name="cm_platform_sdk" remote="cmR" revision="cm-14.1" />
+
+  <!-- Mics -->
+  <project path="CHANGELOGS" name="CHANGELOGS" remote="cmR" revision="cm-14.1" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="cmR" revision="cm-14.1" />
+
+  <!-- GCC And Custom Clang -->
+  <project name="CMRemix/android_prebuilts_clang_linux-x86_host_sdclang-3.8" path="prebuilts/clang/linux-x86/host/sdclang-3.8" remote="github" revision="cm-14.1" />
+
+</manifest>
