@@ -40,6 +40,9 @@
 
   <!-- Vendors -->
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="cmR" revision="cm-14.1" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" revision="cm-14.1" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" revision="cm-14.1" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" name="CyanogenMod/android_packages_apps_YahooWeatherProvider" revision="cm-14.1" />
 
   <!-- Mics -->
   <project path="CHANGELOGS" name="CHANGELOGS" remote="cmR" revision="cm-14.1" />
