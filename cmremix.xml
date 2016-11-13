@@ -40,7 +40,7 @@
   <project name="android_packages_apps_Snap-dual-camera" path="packages/apps/Snap" remote="cmR" revision="cm-14.1" />
 
   <!-- Vendors -->
-  <project path="vendor/cmremix" name="android_vendor_cm" remote="cmR" revision="cm-14.1" />
+  <project path="vendor/cm" name="android_vendor_cm" remote="cmR" revision="cm-14.1" />
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="cmR" revision="cm-14.1" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" revision="cm-14.1" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" revision="cm-14.1" />
