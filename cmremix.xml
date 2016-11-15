@@ -4,19 +4,19 @@
   <!-- CMRemix Github remote -->
   <remote  name="cmR"
            fetch="https://github.com/CMRemix/" />
-  
+
   <!-- Generic CMRemix ssh Bitbucket remote -->
   <remote  name="private-bb"
            fetch="ssh://git@bitbucket.org/CMRemix" />
- 
+
    <!-- Generic CMRemix Github remote -->
   <remote  name="bb"
            fetch="https://bitbucket.org/CMRemix/" />
-  
+
   <!-- Generic CMRemix GitLab remote -->
   <remote  name="gl"
            fetch="https://gitlab.com/CMRemix" />
-  
+
   <!-- Omni Rom Github remote -->
   <remote  name="omni"
            fetch="https://github.com/omnirom"
@@ -28,7 +28,7 @@
   <!-- CMRemix Build -->
   <project path="build" name="android_build" remote="cmR" revision="cm-14.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
-  </project>-->
+  </project>
 
    <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="cmR" revision="cm-14.1" />
@@ -40,7 +40,10 @@
   <project name="android_packages_apps_Snap-dual-camera" path="packages/apps/Snap" remote="cmR" revision="cm-14.1" />
 
   <!-- Vendors -->
-  <project path="vendor/cm" name="android_vendor_cm" remote="cmR" revision="cm-14.1" />
+  <project path="vendor/cm" name="android_vendor_cm" remote="cmR" revision="cm-14.1" >
+  <copyfile src="tools/build-cmremix.sh" dest="build-cmremix.sh" />
+  </project>
+
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="cmR" revision="cm-14.1" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" revision="cm-14.1" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" revision="cm-14.1" />
