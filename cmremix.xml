@@ -37,7 +37,6 @@
 
   <!-- Package Apps -->
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cmR" revision="cm-14.1" />
-  <project name="android_packages_apps_Snap-dual-camera" path="packages/apps/Snap" remote="cmR" revision="cm-14.1" />
 
   <!-- Vendors -->
   <project path="vendor/cm" name="android_vendor_cm" remote="cmR" revision="cm-14.1" >
