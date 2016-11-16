@@ -31,6 +31,10 @@ Getting Started
 To get started with Android/CyanogenMod, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
+For *buntu you need this packages:
+
+sudo apt install repo maven m4 openjdk-8-jdk schedtool curl
+
 To initialize your local repository using the CyanogenMod and my trees, use a command like this:
 
     repo init -u git://github.com/hersche/android.git -b cm-13.0
