@@ -50,6 +50,7 @@
 
   <!-- GCC And Custom Clang -->
   <project name="CMRemix/android_prebuilts_clang_linux-x86_host_sdclang-3.8" path="prebuilts/clang/linux-x86/host/sdclang-3.8" remote="github" revision="cm-14.1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="cmR" revision="sabermod" />
 
   <!-- Vendors -->
   <project path="vendor/cmremix" name="android_vendor_CMRemix" remote="cmR" revision="cm-14.1" >
