@@ -335,7 +335,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/av" name="hersche/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="hersche/android_frameworks_base" revision="cm-12.1" />
+  <project path="frameworks/base" name="fire855/android_frameworks_base-mtk" revision="cm-12.1-mt6592" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -586,5 +586,5 @@
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
 
   <project path="device/mediatek/mt6582" name="hersche/device_mediatek_mt6582" revision="cm-12.1" />
-  <project path="vendor/mediatek/mt6582" name="hersche/vendor_mediatek_mt6582" revision="cm-13.0" />
+  <project path="vendor/mediatek/mt6582" name="hersche/vendor_mediatek_mt6582" revision="cm-12.1" />
 </manifest>
