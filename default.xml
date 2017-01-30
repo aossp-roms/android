@@ -551,6 +551,9 @@
   <project name="toolchain/binutils"/>
 
   <!-- Paranoid Android additions -->
-  <include name="manifests/aospa.xml"/>
+  <include name="manifests/aospa.xml" />
+
+  <!-- KYLEPROXX additions -->
+  <include name="manifests/kyleproxx.xml" />
 
 </manifest>

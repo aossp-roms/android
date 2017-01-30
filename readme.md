@@ -41,7 +41,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/AOSPA/manifest -b nougat-mr1
+$ repo init -u https://github.com/TheComputerGuy96/android.git -b nougat-mr1
 ```
 
 ### Downloading the source tree ###
@@ -73,19 +73,6 @@ a large change that spans across multiple projects.
 # frameworks/base to sync the frameworks/base repository
 
 $ repo sync PROJECT
-```
-
-## Building ##
-
-The bundled builder tool `./rom-build.sh` handles all the building steps for the specified device
-automatically. As the device value, you just feed it with the device codename (for example,
-'hammerhead' for the Nexus 5).
-
-```bash
-# Go to the root of the source tree...
-$ cd WORKSPACE
-# ...and run the builder tool.
-$ ./rom-build.sh DEVICE
 ```
 
 ## Submitting Patches ##

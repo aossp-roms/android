@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- KYLEPROXX -->
+  <project path="device/samsung/kylepro" name="TheComputerGuy96/android_device_samsung_kylepro" remote="github" revision="nougat-mr1" />
+  <project path="device/samsung/kyleprods" name="TheComputerGuy96/android_device_samsung_kyleprods" remote="github" revision="nougat-mr1" />
+  <project path="kernel/samsung/kyleproxx" name="ishantvivek/android_kernel_samsung_kyleproxx" remote="github" revision="cm-14.1" />
+  <project path="vendor/samsung/kyleproxx" name="ishantvivek/android_vendor_samsung_kyleproxx" remote="github" revision="7.0" />
+  <!-- KYLEPROXX dependencies -->
+  <remove-project name="platform/external/chromium-webview" />
+  <project path="external/chromium-webview" name="ishantvivek/android_external_chromium-webview" clone-depth="1" remote="github" revision="7.0" />
+  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-14.1" />
+  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="github" revision="cm-14.1" />
+  <project path="external/stlport" name="platform/external/stlport" remote="aosp" revision="refs/tags/android-5.1.1_r38" />
+  <remove-project name="AOSPA/android_frameworks_av" />
+  <project path="frameworks/av" name="google-aosp/android_frameworks_av" remote="github" revision="7.1.1" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
+  <project path="frameworks/opt/net/wifi" name="google-aosp/android_frameworks_opt_net_wifi" remote="github" revision="7.1.1" />
+  <remove-project name="AOSPA/android_frameworks_opt_telephony" />
+  <project path="frameworks/opt/telephony" name="google-aosp/android_frameworks_opt_telephony" remote="github" revision="7.1.1" />
+  <remove-project name="AOSPA/android_hardware_broadcom_libbt" />
+  <project path="hardware/broadcom/libbt" name="google-aosp/android_hardware_broadcom_libbt" remote="github" revision="7.1.1" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
+  <project path="hardware/libhardware_legacy" name="google-aosp/android_hardware_libhardware_legacy" remote="github" revision="7.1.1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" clone-depth="1" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+</manifest>
