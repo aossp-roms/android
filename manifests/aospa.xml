@@ -102,7 +102,7 @@
   <project path="system/vold" name="AOSPA/android_system_vold" remote="aospa" groups="aospa" />
 
   <!-- Vendor -->
-  <project path="vendor/pa" name="TheComputerGuy96/android_vendor_pa" remote="github" revision="nougat=mr1" >
+  <project path="vendor/pa" name="TheComputerGuy96/android_vendor_pa" remote="github" revision="nougat-mr1" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
   <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
