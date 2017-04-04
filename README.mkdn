@@ -1,4 +1,4 @@
-SudaMod
+HeliumRom
 ===========
 
 Getting Started
@@ -40,13 +40,13 @@ Giving the repo binary the proper permissions
 
     $ chmod a+x ~/bin/repo
 
-Creating directory for where the SudaMod repo will be stored and synced
+Creating directory for where the HeliumRom repo will be stored and synced
 
-    $ mkdir ~/SudaMod $ cd ~/SudaMod
+    $ mkdir ~/HeliumRom $ cd ~/HeliumRom
 
 Initializing the SudaMod repo and downloading the manifest
 
-    $ repo init -u git://github.com/SudaMod/android.git -b sm-3.1
+    $ repo init -u git://github.com/HeliumRom/android.git -b sm-3.1
     
 Syncing the source
 
@@ -68,9 +68,9 @@ To set up CCache, follow the following:
 
 -M 50G The number before the letter G at the end specifies the amount of space CCache can use in your storage unit. As such, ensure that not too much of space is specified as this might result in unexpected errors although, the more storage you have, its recommended to have more CCache as it will increase the build times. Most efficient build systems are able to utilize CCache to about 120G or more.
 
-###To build SudaMod
+###To build HeliumRom
 
-    $ cd ~/SudaMod 
+    $ cd ~/HeliumRom
     
     $ . build/envsetup.sh
 
