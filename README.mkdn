@@ -44,7 +44,7 @@ Creating directory for where the HeliumRom repo will be stored and synced
 
     $ mkdir ~/HeliumRom $ cd ~/HeliumRom
 
-Initializing the SudaMod repo and downloading the manifest
+Initializing the HeliumRom repo and downloading the manifest
 
     $ repo init -u git://github.com/HeliumRom/android.git -b sm-3.1
     
@@ -58,13 +58,13 @@ Syncing the source
 
 ###Setting Up CCache
 
-CCache is a method of utilizing a specified storage space to speed up building. It can be referred to as the same caching your android device does to speed up application and system boot times. In this case, CCache will help build SudaMod faster than standard build times (Able to cut-down 50% of time taken to build).
+CCache is a method of utilizing a specified storage space to speed up building. It can be referred to as the same caching your android device does to speed up application and system boot times. In this case, CCache will help build HeliumRom faster than standard build times (Able to cut-down 50% of time taken to build).
 
 To set up CCache, follow the following:
 
     $ echo "export USE_CCACHE=1" >> ~/.bashrc
 
-    $ ~/SudaMod/prebuilts/misc/linux-x86/ccache/ccache -M 50G
+    $ ~/HeliumRom/prebuilts/misc/linux-x86/ccache/ccache -M 50G
 
 -M 50G The number before the letter G at the end specifies the amount of space CCache can use in your storage unit. As such, ensure that not too much of space is specified as this might result in unexpected errors although, the more storage you have, its recommended to have more CCache as it will increase the build times. Most efficient build systems are able to utilize CCache to about 120G or more.
 
@@ -86,8 +86,8 @@ Obtaining the zip created from the build process
 
 To get the zip file that has been built, navigate to the following directory and find for the zip file:
 
-    $ cd ~/SudaMod/out/target/product/
+    $ cd ~/HeliumRom/out/target/product/
 
 If you found it, then congratulations! If you didn't, try retrying the build process but before doing so, ensure you do the following to make sure your next build is clean;
 
-    $ cd ~/SudaMod && make clean && repo sync -j 16
+    $ cd ~/HeliumRom && make clean && repo sync -j 16
