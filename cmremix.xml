@@ -11,7 +11,7 @@
 
    <!-- Generic CMRemix Github remote -->
   <remote  name="bb"
-           fetch="https://bitbucket.org/CMRemix/" />
+           fetch="https://bitbucket.org/" />
 
   <!-- Generic CMRemix GitLab remote -->
   <remote  name="gl"
@@ -50,7 +50,7 @@
 
   <!-- GCC And Custom Clang -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="sm_arm-linux-androideabi-4.9.x" groups="pdk,linux,arm" remote="cmR" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.0" name="sm_arm-eabi-7.0" groups="pdk,linux,arm" remote="cmR" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.0" name="Jason Edson/arm-eabi-7.0" groups="pdk,linux,arm" remote="bb" revision="master" />
   <project name="CMRemix/android_prebuilts_clang_linux-x86_host_sdclang-3.8" path="prebuilts/clang/linux-x86/host/sdclang-3.8" remote="github" revision="cm-14.1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="cmR" revision="sabermod" />
 
