@@ -49,7 +49,7 @@
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="cmR" revision="cm-14.1" />
 
   <!-- Newer Clang Support -->
-  <remove-project name="android_bootable_recovery" />
+  <remove-project name="LineageOS/android_bootable_recovery" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="uber" />
   <remove-project name="platform/external/clang" />
   <project path="external/clang" name="external_clang" groups="pdk" remote="uber" />
