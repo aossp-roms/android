@@ -48,11 +48,29 @@
   <project path="CHANGELOGS" name="CHANGELOGS" remote="cmR" revision="cm-14.1" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="cmR" revision="cm-14.1" />
 
-  <!-- GCC And Custom Clang -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="sm_arm-linux-androideabi-4.9.x" groups="pdk,linux,arm" remote="cmR" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.0" name="Jason Edson/arm-eabi-7.0" groups="pdk,linux,arm" remote="bb" revision="master" />
-  <project name="CMRemix/android_prebuilts_clang_linux-x86_host_sdclang-3.8" path="prebuilts/clang/linux-x86/host/sdclang-3.8" remote="github" revision="cm-14.1" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="cmR" revision="sabermod" />
+  <!-- Newer Clang Support -->
+  <remove-project name="platform/bootable/recovery" />
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="uber" />
+  <remove-project name="platform/external/clang" />
+  <project path="external/clang" name="external_clang" groups="pdk" remote="uber" />
+  <remove-project name="platform/external/compiler-rt" />
+  <project path="external/compiler-rt" name="external_compiler-rt" groups="pdk" remote="uber" />
+  <remove-project name="platform/external/llvm" />
+  <project path="external/llvm" name="external_llvm" groups="pdk" remote="uber" />
+  <remove-project name="platform/frameworks/compile/libbcc" />
+  <project path="frameworks/compile/libbcc" name="frameworks_compile_libbcc" groups="pdk" remote="uber" />
+  <remove-project name="platform/frameworks/compile/mclinker" />
+  <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" groups="pdk" remote="uber" />
+  <remove-project name="platform/frameworks/compile/slang" />
+  <project path="frameworks/compile/slang" name="frameworks_compile_slang" groups="pdk" remote="uber" />
+  <remove-project name="platform/prebuilts/sdk" />
+  <project path="prebuilts/sdk" name="prebuilts_sdk" groups="pdk" remote="uber" />
+
+  <!-- UBER Toolchains -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="uberroms/aarch64-linux-android-6.x" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" name="uberroms/arm-linux-androideabi-6.x" remote="bb" />
+  <project path="prebuilts/clang/host/linux-x86/3.9" name="uberroms/clang_linux-x86_3.x" remote="bb" />
+  <project path="prebuilts/clang/host/linux-x86/5.0" name="uberroms/clang_linux-x86_5.x" remote="bb" />
 
   <!-- Vendors -->
   <project path="vendor/cmremix" name="android_vendor_CMRemix" remote="cmR" revision="cm-14.1" >
