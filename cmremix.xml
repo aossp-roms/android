@@ -9,6 +9,10 @@
   <remote  name="private-bb"
            fetch="ssh://git@bitbucket.org/CMRemix" />
 
+  <remote name = "uber"
+          revision = "master"
+          fetch = "https://github.com/UBERROMS" />
+
    <!-- Generic CMRemix Github remote -->
   <remote  name="bb"
            fetch="https://bitbucket.org/" />
