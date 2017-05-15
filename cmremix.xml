@@ -62,9 +62,9 @@
 
   <!-- System -->
   <remove-project name="LineageOS/android_system_core" />
-  <project path="system/core" name="system_core" remote="cmR" revision="cm-14.1" />
+  <project path="system/core" name="android_system_core" remote="cmR" revision="cm-14.1" />
   <remove-project name="LineageOS/android_system_extras" />
-  <project path="system/extras" name="system_extras" remote="cmR" revision="cm-14.1" />
+  <project path="system/extras" name="android_system_extras" remote="cmR" revision="cm-14.1" />
 
   <!-- Mics -->
   <project path="CHANGELOGS" name="CHANGELOGS" remote="cmR" revision="cm-14.1" />
@@ -72,7 +72,7 @@
 
   <!-- Newer Clang Support -->
   <remove-project name="LineageOS/android_bootable_recovery" />
-  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="uber" />
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="cmR" revision="cm-14.1" />
   <remove-project name="platform/external/clang" />
   <project path="external/clang" name="external_clang" groups="pdk" remote="uber" />
   <remove-project name="platform/external/compiler-rt" />
