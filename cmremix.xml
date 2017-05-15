@@ -34,6 +34,16 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
+  <!-- Base Project -->
+  <remove-project name="LineageOS/android_art" />
+  <project path="art" name="art" remote="cmR" revision="cm-14.1" />
+  <remove-project name="LineageOS/android_bionic" />
+  <project path="bionic" name="bionic" remote="cmR" revision="cm-14.1" />
+
+   <!-- External -->
+   <remove-project name="LineageOS/android_external_ipsec-tools" />
+   <project path="external/ipsec-tools" name="android_external_ipsec-tools" remote="cmR" revision="cm-14.1" />
+
    <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="cmR" revision="cm-14.1" />
   <project path="frameworks/base" name="android_frameworks_base" remote="cmR" revision="cm-14.1" />
@@ -44,9 +54,16 @@
   <project path="packages/apps/CMRemixUpdater" name="android_packages_apps_CMRemixUpdater" remote="cmR" revision="cm-14.1" />
   <project path="packages/apps/CMParts" name="android_packages_apps_CMParts" remote="cmR" revision="cm-14.1" />
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="cmR" revision="cm-14.1" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" groups="pdk-fs" remote="cmR" revision="cm-14.1" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" revision="cm-14.1" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" revision="cm-14.1" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" name="CyanogenMod/android_packages_apps_YahooWeatherProvider" revision="cm-14.1" />
+
+  <!-- System -->
+  <remove-project name="LineageOS/android_system_core" />
+  <project path="system/core" name="system_core" remote="cmR" revision="cm-14.1" />
+  <remove-project name="LineageOS/android_system_extras" />
+  <project path="system/extras" name="system_extras" remote="cmR" revision="cm-14.1" />
 
   <!-- Mics -->
   <project path="CHANGELOGS" name="CHANGELOGS" remote="cmR" revision="cm-14.1" />
