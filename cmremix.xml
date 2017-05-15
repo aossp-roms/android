@@ -36,9 +36,9 @@
 
   <!-- Base Project -->
   <remove-project name="LineageOS/android_art" />
-  <project path="art" name="art" remote="cmR" revision="cm-14.1" />
+  <project path="art" name="android_art" remote="cmR" revision="cm-14.1" />
   <remove-project name="LineageOS/android_bionic" />
-  <project path="bionic" name="bionic" remote="cmR" revision="cm-14.1" />
+  <project path="bionic" name="android_bionic" remote="cmR" revision="cm-14.1" />
 
    <!-- External -->
    <remove-project name="LineageOS/android_external_ipsec-tools" />
