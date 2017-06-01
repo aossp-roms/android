@@ -42,15 +42,11 @@
 
    <!-- External -->
   <project path="external/DUtils" name="android_external_DUtils" remote="cmR" revision="cm-14.1" />
-   <remove-project name="LineageOS/android_external_ipsec-tools" />
-   <project path="external/ipsec-tools" name="android_external_ipsec-tools" remote="cmR" revision="cm-14.1" />
 
    <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="cmR" revision="cm-14.1" />
   <project path="frameworks/base" name="android_frameworks_base" remote="cmR" revision="cm-14.1" />
   <project path="frameworks/native" name="android_frameworks_native" remote="cmR" revision="cm-14.1" />
-  <remove-project name="platform/frameworks/rs" />
-  <project path="frameworks/rs" name="android_frameworks_rs" remote="cmR" revision="cm-14.1" />
 
   <!-- Package Apps -->
   <remove-project name="LineageOS/android_packages_apps_Contacts" />
@@ -79,40 +75,20 @@
   <!-- System -->
   <remove-project name="LineageOS/android_system_core" />
   <project path="system/core" name="android_system_core" remote="cmR" revision="cm-14.1" />
-  <remove-project name="LineageOS/android_system_extras" />
-  <project path="system/extras" name="android_system_extras" remote="cmR" revision="cm-14.1" />
+  <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="cmR" revision="cm-14.1" />
+  <remove-project name="LineageOS/android_system_sepolicy" />
 
   <!-- Mics -->
   <project path="CHANGELOGS" name="CHANGELOGS" remote="cmR" revision="cm-14.1" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="cmR" revision="cm-14.1" />
-  <remove-project name="LineageOS/android_system_sepolicy" />
-  <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="cmR" revision="cm-14.1" />
 
-  <!-- Newer Clang Support -->
-  <remove-project name="LineageOS/android_bootable_recovery" />
-  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="cmR" revision="cm-14.1" />
-  <remove-project name="platform/external/clang" />
-  <project path="external/clang" name="external_clang" groups="pdk" remote="uber" />
-  <remove-project name="platform/external/compiler-rt" />
-  <project path="external/compiler-rt" name="external_compiler-rt" groups="pdk" remote="uber" />
-  <remove-project name="platform/external/llvm" />
-  <project path="external/llvm" name="external_llvm" groups="pdk" remote="uber" />
-  <remove-project name="platform/frameworks/compile/libbcc" />
-  <project path="frameworks/compile/libbcc" name="frameworks_compile_libbcc" groups="pdk" remote="uber" />
-  <remove-project name="platform/frameworks/compile/mclinker" />
-  <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" groups="pdk" remote="uber" />
-  <remove-project name="platform/frameworks/compile/slang" />
-  <project path="frameworks/compile/slang" name="frameworks_compile_slang" groups="pdk" remote="uber" />
-  <remove-project name="platform/prebuilts/sdk" />
-  <project path="prebuilts/sdk" name="prebuilts_sdk" groups="pdk" remote="uber" />
 
-  <!-- UBER Toolchains -->
+  <!-- UBER Linaro Toolchains -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="uberroms/aarch64-linux-android-6.x" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.0" name="uberroms/arm-linux-androideabi-6.x" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" name="uberroms/arm-eabi-6.x" remote="bb" revision="master" />
   <project path="prebuilts/clang/host/linux-x86/3.9" name="uberroms/clang_linux-x86_3.x" remote="bb" revision="master" />
   <project path="prebuilts/clang/host/linux-x86/5.0" name="uberroms/clang_linux-x86_5.x" remote="bb" revision="master" />
-  <project path="prebuilts/clang/host/linux-x86/dragontc-5.0" name="xanaxdroid/dragontc-5.0" remote="bb" revision="dragon-tc" />
 
   <!-- Vendors -->
   <project path="vendor/cmremix" name="android_vendor_CMRemix" remote="cmR" revision="cm-14.1" >
