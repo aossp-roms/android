@@ -42,7 +42,6 @@
 
    <!-- External -->
   <project path="external/DUtils" name="android_external_DUtils" remote="cmR" revision="cm-14.1" />
-  <project path="external/google" name="android_external_google" remote="cmR" revision="cm-14.1" />
 
    <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="cmR" revision="cm-14.1" />
