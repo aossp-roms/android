@@ -107,7 +107,7 @@
 
   <!-- Vendors -->
   <remove-project name="LineageOS/cm_platform_sdk" />
-  <project path="vendor/cmsdk" name="LineageOS/cm_platform_sdk" />
+  <project path="vendor/cmsdk" name="cm_platform_sdk" remote="cmR" revision="cm-14.1" />
   <project path="vendor/cmremix" name="android_vendor_CMRemix" remote="cmR" revision="cm-14.1" >
   <copyfile src="tools/build-cmremix.sh" dest="build-cmremix.sh" />
   </project>
