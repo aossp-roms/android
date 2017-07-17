@@ -87,6 +87,7 @@
 
   <!-- Mics -->
   <project path="CHANGELOGS" name="CHANGELOGS" remote="cmR" revision="cm-14.1" />
+  <remove-project name="LineageOS/android_device_qcom_sepolicy" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="cmR" revision="cm-14.1" />
   <remove-project name="LineageOS/android_hardware_libhardware" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="cmR" revision="cm-14.1" />
