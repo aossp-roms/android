@@ -71,7 +71,7 @@ CMRemix Build Script
 Credits List
 ============
 
-*** CyanogenMod, PAC-man, AOKP, crDroid Android, AOSPA, CyanogenMod, OmniROM, SlimROM, LiquidSmooth, SpasilliumNexus, DirtyUnicorns, NamelessROM, AICP, Euphoria-OS. Team Bliss, Dirty Unicon
+*** LineageOS, PAC-man, AOKP, crDroid Android, AOSPA, LineageOS, OmniROM, SlimROM, LiquidSmooth, SpasilliumNexus, DirtyUnicorns, NamelessROM, AICP, Euphoria-OS. Team Bliss, Dirty Unicon
 
 *** Temasek, Cristiano Matos, David Viteri, Slayher, Fattire, gekkehenkie11, XXMrHyde, tobitege, pimpmaneaton, rogersb11, NL-BlackDragon, Paul Beeler, Lokesh Chaman, LorDClockaN, Altaf-Mahdi, kufikugel, dankoman30, FusionJack, Chet Kener, mustermaxmueller....
 
